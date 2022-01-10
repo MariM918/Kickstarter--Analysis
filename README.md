@@ -1,17 +1,19 @@
 # Kickstarting with Excel
 
 ## Overview of Project
-  Louise is a playwright who wants to start a crowdfunding campaign to fund her new play called Fever. Initially, I did an analysis of the crowdfunding data that she had to see if there were any trends in the successfull and failed campaigns. The analysis was to help her get an idea of what she needed to launch her own campaign. 
+  Louise is a upcoming playwright who wants to start a crowdfunding campaign to fund her new play called Fever. Initially, I did an analysis of the crowdfunding data that she had to see if there were any trends in the successful, failed, canceled, and live campaigns. The analysis was to help her get an idea of what she needed to launch her own campaign and if their was a possibility that her current goal could be met.
 
 ### Purpose
-  After launching her campaign for Fever, she was able to almsot reach her goal in a short amount of time. Now she wants to see the progress other campaigns had in regards to their launch dates and their funding goals. 
+  After launching her campaign for Fever, she was able to almsot reach her goal in a short amount of time. Now she wants to see the progress that other campaigns had in regards to their launch dates and funding goals. 
 
 ## Analysis and Challenges
   I began my analysis by creating a new column, years, in the original Kickstarter data set. I pulled the year from the date each of the campaigns were created. Then, I made a pivot chart where I filtered the data by the parent category theater and by the year. After adding 'year' to the row column, I was able to further break it down to show the months of the year. The columns of the chart displayed the number of successful, failed, canceled, and the total. Afterwards, I created a line chart so it would make it easier for Louise to view and see the trend. See the graph below:
+  
   ![Theater_Outcomes_vs_Launch.png](Documents/Data Analysis/Module 1- Excel/Resources)
   
   
   In the second part of my analysis, I created another line chart as well. This graph contained the percentage of successful, failed, and canceled plays based on their funding goal amount. I began by creating a new table where I used the COUNTIFS function to help  obtain the outcome and goal data for the subcategory plays. I created 12 different goal ranges that included less than 1000 to greater than 50000. In the table I also created 4 columns to count the number of successful, failed, canceled, and total projects. Then, I used the COUNTIF function to get the count for each of the ranges and each of the columns. The other half of my columns in the table were the percentage of each successful, failed, and canceled campaign. I used the ROUND formula to find that percentage. I divided the amount calculated by the COUNTIFS function by the total number of projects from that row. Finally, with that information I created the line graph below:
+  
   ![Outcomes_vs_Goals.png](Documents/Data Analysis/Module 1- Excel/Resources)
   
  The line graph showed the relationship between goal-amount ranges and the percentage of successful, failed, or canceled projects.
