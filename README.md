@@ -29,7 +29,7 @@ Based on the table I created with the different goal-amount ranges, there is cer
 
 ### Challenges and Difficulties Encountered
 
-In the beginning, I found the COUNTIFS formula part a little challenging because the formula was lengthy in my opinion. When I wrote the first set of formulas for the successfull column, I missed common things like quotation marks, dollar signs, commas, or parentheses. It was frustrating because it does get hard to see that a simple comma is missed in a formula that long. I had to slow down, and I broke down each part of the formula and wrote it out. For example, the beginning of my formula is =COUNTIFS(Kickstarter!$F:$F,"successful", and after I wrote it, I looked over it very carefully for any errors. Then I continued to the next part, I found this very helpful and I was able to master the rest of the formulas I needed. 
+In the beginning, I found the COUNTIFS formula part was slightly challenging because the formula was lengthy in my opinion. When I wrote the first set of formulas for the successfull column, I missed common things like quotation marks, dollar signs, commas, or parentheses. It was frustrating because it does get hard to see that a simple comma is missed in a formula that long. I had to slow down, and I broke down each part of the formula and wrote it out. For example, the beginning of my formula is =COUNTIFS(Kickstarter!$F:$F,"successful", and after I wrote it, I looked over it very carefully for any errors. Then I continued to the next part, I found this very helpful and I was able to master the rest of the formulas I needed. 
 
 ## Results
 
